@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mogaka.Amos.N">
+    <meta name="description" content="Web App">
+    <title>COVID-19 Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>COVID-19 Estimator</h1><br />
+    <header>
+        <button class="navbar-toggler navbar-toggler-right" type="button" >
+            Menu<i class="fa fa-bars"></i>
+           </button>
+    </header><br /><br />
+    <div class="container">
+        
+    <div class="container">
+        <form action="" method="get">
+            <ol>
+    <div class="container">
+        <input type="number" name="" id="data-population" placeholder="Population"  title="Enter the population required for estimation" required/>
+    </div><br />
+   <div class="container">
+    <input type="text" name="" id="data-time-to-elapse" placeholder="TimetoElapse" required/>
+   </div><br />
+    <div class="container">
+        <input type="text" name="" id="data-reported-cases" placeholder="ReportedCases" required />
+    </div><br />
+    <div class="container">
+        <input type="text" name="" id="data-total-hospital-beds" placeholder="No.ofHospitalBeds" title="No. of beds available for the positive COVID-19 cases." required/>
+    </div><br />
+    <div class="container">
+        <p>
+            <input type="number" name="Day" min="1" max="31" placeholder="No.ofDays" required/>
+            <br /><br />
+            
+            <input type="month" name="Month" min="1" max="12"
+                   placeholder="mm" />
+                   <br><br>
+                   
+        
+            <input type="week" name="Week" min="1" max="52"
+                   placeholder="W##" />  
+                <br><br>
+                </p>
+    </div><br />
+    <button id="data-go-estimate" title="Navigate to the Estimation">Estimate</button>
+            </ol>
+        </form>
+    </div>
+    </div>
+    <script src="src/estimator.js"></script>
+</body>
+</html>
